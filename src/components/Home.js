@@ -4,6 +4,7 @@ import { submitPlayer } from "../actions/playerActions"
 
 const Home = (props) => {
   const [name, setName] = useState("")
+  // let name = ""
   const [error, setError] = useState("")
   const dispatch = useDispatch()
 
